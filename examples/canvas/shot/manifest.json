@@ -1,0 +1,20 @@
+{
+  "name": "Page Redder",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Turns the page red when you click the icon",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [{
+  	// "<all_urls>" 表示匹配所有地址
+  	"matches": ["<all_urls>"],
+  	// 多个JS按顺序注入
+  	"js": ["html2canvas.min.js"]
+  }]
+}
