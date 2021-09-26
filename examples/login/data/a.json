@@ -1,0 +1,66 @@
+{
+  "super.lvmama.com": {
+    "name": "admin",
+    "pwd": "1234567!",
+	"user_input" : "input[name='user.userName']",
+	"pwd_input" : "input[name='user.password']",
+	"login_input" :"#submitBtn"
+  },
+  "git.lvmama.com": {
+    "name": "wangzezheng@lvmama.com",
+    "pwd": "wzz758520689",
+	"user_input" : "input[name='user[login]']",
+	"pwd_input" : "input[name='user[password]']",
+	"login_input" :"input[name='commit']"
+  },
+  "ipm.lvmama.com": {
+    "name": "wangzezheng@lvmama.com",
+    "pwd": "758520689",
+	"user_input" : "input[name='account']",
+	"pwd_input" : "input[name='password']",
+	"login_input" :"#submit"
+  },
+  "devops.lvmama.com": {
+    "name": "wangzezheng",
+    "pwd": "123456",
+  	"user_input" : "input[type='text']",
+  	"pwd_input" : "input[type='password']",
+  	"login_input" :".login-button"
+  },
+  "sqlopt.lvmama.com": {
+    "name": "wangzezheng@lvmama.com",
+    "pwd": "758520689",
+  	"user_input" : "input[name='username']",
+  	"pwd_input" : "input[name='password']",
+  	"login_input" :".el-button"
+  },
+  "conf.lvmama.com": {
+    "name": "汪泽正",
+    "pwd": "123456",
+  	"user_input" : "input[name='os_username']",
+  	"pwd_input" : "input[name='os_password']",
+  	"login_input" :"input[name='login']"
+  },
+  "10.200.2.68": {
+    "name": "wangzezheng@lvmama.com",
+    "pwd": "758520689",
+  	"user_input" : "input[name='username']",
+  	"pwd_input" : "input[name='password']",
+  	"login_input" :"input[type=submit]"
+  },
+  "ekp.joyu.com": {
+    "name": "wangzezheng",
+    "pwd": "joyu@356491",
+  	"user_input" : "input[name='j_username']",
+  	"pwd_input" : "input[name='j_password']",
+  	"login_input" :".lui_login_button_div_c"
+  },
+  "10.200.5.31:8000": {
+    "name": "wangzezheng@lvmama.com",
+    "pwd": "Lvmama2021",
+  	"user_input" : "input[type='text']",
+  	"pwd_input" : "input[type='password']",
+  	"login_input" :".ivu-btn-long"
+  }
+  
+}
