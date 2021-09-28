@@ -13,7 +13,7 @@
 	},
 	"browser_action": {
 		"default_icon": "img/app.png",
-		"default_title": "这是一个示例Chrome插件",
+		"default_title": "logeye查询插件",
 		"default_popup": "popup.html"
 	},
 	"content_scripts": [{
@@ -30,5 +30,5 @@
 		"http://*/*",
 		"https://*/*"
 	],
-	"web_accessible_resources": ["css/custom.css", "custom.html"]
+	"web_accessible_resources": ["css/custom.css"]
 }
