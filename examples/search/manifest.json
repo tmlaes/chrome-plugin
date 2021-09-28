@@ -1,0 +1,34 @@
+{
+	"manifest_version": 2,
+	"name": "search",
+	"version": "1.0.0",
+	"description": "logeye查询",
+	"icons": {
+		"16": "img/app.png",
+		"48": "img/app.png",
+		"128": "img/app.png"
+	},
+	"background": {
+		"scripts": ["js/background.js"]
+	},
+	"browser_action": {
+		"default_icon": "img/app.png",
+		"default_title": "这是一个示例Chrome插件",
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [{
+			"matches": ["http://super.lvmama.com/prism-web/logeye/*", "https://super.lvmama.com/prism-web/logeye/*"],
+			"js": ["js/jquery-3.5.1.min.js", "js/content.js"],
+			"css": ["css/custom.css"],
+			"run_at": "document_end"
+		}
+	],
+	"permissions": [
+		"tabs",
+		"webRequest",
+		"webRequestBlocking",
+		"http://*/*",
+		"https://*/*"
+	],
+	"web_accessible_resources": ["css/custom.css", "custom.html"]
+}
